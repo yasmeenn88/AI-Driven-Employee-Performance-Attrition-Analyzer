@@ -38,3 +38,20 @@ This dataset contains **100,000 employee records** with key attributes related t
 - **HR Analytics**: Generate insights into employee behavior and workforce trends for strategic decisions.
 
 Dataset link: [Kaggle Dataset – Employee Performance and Productivity](https://www.kaggle.com/datasets/mexwell/employee-performance-and-productivity-data)
+
+---
+
+## 📊 Interactive Dashboard
+
+The project includes a fully interactive, web-based **dashboard built with Streamlit and Plotly**, designed for non-technical HR users and managers.
+
+### Features of the Dashboard:
+
+- Visualize performance metrics using dynamic charts
+- Identify top performers, employees at risk of resignation, and those in need of support
+- Get AI-powered recommendations for each employee
+- Receive instant alerts for low satisfaction or high churn risk
+
+### Dashboard Preview (Coming Soon)
+
+Once deployed, the dashboard can be accessed through a browser and used internally by HR teams. It requires no coding knowledge.
