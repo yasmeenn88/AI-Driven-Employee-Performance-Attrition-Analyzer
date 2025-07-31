@@ -45,5 +45,5 @@ Understanding employee attrition allows HR teams to proactively address workplac
 
 Below is the class distribution of the target variable `Attrition`:
 
-![Class Distribution](images/classes.png)
+![Class Distribution](images/classes.jpg)
 
