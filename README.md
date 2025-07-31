@@ -35,3 +35,15 @@ Employee attrition is a critical issue faced by organizations, especially in com
 | `No_of_Years_Worked_at_Current_Company` | Total years at the current company.                                         |
 | `No_of_Years_in_Current_Role`           | Total years in the current role.                                            |
 | `Years_Since_Last_Promotion`            | Number of years since the last promotion.                                   |
+
+-----
+##  Goal: Predicting Employee Attrition
+
+The objective of this project is to build a machine learning model that can accurately **predict whether an employee is likely to leave the company** (Attrition = `Yes`) or stay (Attrition = `No`).
+
+Understanding employee attrition allows HR teams to proactively address workplace issues, improve employee satisfaction, and reduce turnover costs.
+
+Below is the class distribution of the target variable `Attrition`:
+
+![Class Distribution](images/classes.png)
+
