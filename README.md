@@ -56,10 +56,9 @@ The following plots show how different categories such as `Business_Travel`, `De
 - **Business Travel**: Employees who travel frequently or rarely show different attrition patterns.
 - **Department**: Attrition rates vary across departments like Software Development, IT Services, and Cyber Security.
 - **Gender**: Male and female employees exhibit similar attrition distributions.
-- **Marital Status**: Single employees tend to have higher attrition than married ones.
-- **Overtime**: Employees who work overtime are more likely to leave.
 
-![Categorical Feature Distribution](images/distribution.jpg)
+
+![Categorical Feature Distribution](images/dist.jpg)
 
 ##  Outlier Detection in Numerical Features
 
