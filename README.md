@@ -115,6 +115,27 @@ After evaluating several classification models, we selected **Gradient Boosting*
 -  **Macro F1-score of 0.77**, showing strong overall performance across both classes
 
 This makes Gradient Boosting the most reliable model for predicting employee attrition in a balanced and interpretable way.
+----------
+##  Deployment
 
+The Attrition Prediction System was deployed using **Streamlit**, a fast and interactive web framework for Python applications.
 
+###  Backend Components
+- **Model Format:** Serialized with `joblib` (`.pkl`)
+- **Preprocessing:** Includes `LabelEncoder` for categorical features and a `StandardScaler` for numeric features.
+- **Storage:** Employee responses are stored in a local `CSV` file (`survey_responses.csv`), which is used for batch prediction.
+------------
 
+###  User Interfaces
+
+#### 🔹 Employee Interface – Monthly Survey Form
+Used by employees to submit their monthly feedback anonymously:
+<p align="center">
+  <img src="images/ui1.jpg" alt="Employee Interface" width="700"/>
+</p>
+
+#### 🔹 HR Dashboard – Batch Results + Risk Predictions
+Used by HR to view predictions and suggested actions:
+<p align="center">
+  <img src="images/ui2.jpg" alt="HR Interface" width="700"/>
+</p>
