@@ -59,7 +59,7 @@ The following plots show how different categories such as `Business_Travel`, `De
 - **Marital Status**: Single employees tend to have higher attrition than married ones.
 - **Overtime**: Employees who work overtime are more likely to leave.
 
-![Categorical Feature Distribution](assets/distribution.jpg)
+![Categorical Feature Distribution](images/distribution.jpg)
 
 ##  Outlier Detection in Numerical Features
 
@@ -73,7 +73,7 @@ The following features were checked:
 
 **Result:** No outliers were detected in any of these features, as all data points fall within the whiskers of the boxplots.
 
-![Numerical Feature Outliers](assets/num%20outlier.jpg)
+![Numerical Feature Outliers](images/num%20outlier.jpg)
 
 ##  Correlation Matrix (Label Encoded Features)
 
